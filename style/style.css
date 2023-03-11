@@ -9,8 +9,7 @@
 }
 
 body {
-  background-image: url(/images/background-1.png);
-  background-repeat: no-repeat;
+  background-image: url(/images/background-2.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -47,3 +46,36 @@ body {
 }
 
 /* HERO SECTION */
+.container-1{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-1 .container-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  padding-top: 3rem;
+}
+
+.container-1 .container-2 .logo img{
+  width: 4rem;
+}
+
+.container-1 .container-2 .row-text{
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: red;
+}
+
+.container-1 .container-2 .row-text h3, p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
