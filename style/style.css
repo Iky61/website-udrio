@@ -17,7 +17,7 @@ body {
 
 /* Navbar Section */
 .navbar {
-  background-color: white;
+  background-color: rgb(255, 250, 233);
   height: 6rem;
   display: flex;
   justify-content: space-between;
@@ -39,6 +39,7 @@ body {
   color: black;
   font-size: 1.6rem;
   transition: 0.5s;
+  font-weight: 520;
 }
 
 .navbar .feature .row a:hover {
@@ -141,7 +142,7 @@ p {
   justify-content: center;
   padding-right: 4.5rem;
   font-weight: 700;
-  color: #00567e;
+  color: #047ac4;
   transition: 1s;
 }
 
