@@ -15,14 +15,22 @@ body {
   position: relative;
 }
 
-/* Navbar Section */
+html{
+  scroll-behavior: smooth;
+}
+
+/* START Navbar Section */
 .navbar {
-  background-color: rgb(255, 250, 233);
   height: 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  height: 5rem;
 }
 
 .navbar .feature {
@@ -46,6 +54,56 @@ body {
   font-size: 1.8rem;
   color: rgb(107, 73, 32);
 }
+/* END NAVBAR SECTION */
+
+/* START HOME SECTION */
+.container-0{
+  width: 100%;
+  height: 100vh;
+  padding: 0 3rem;
+}
+
+.container-0 .row-home{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-0 .row-home .text-home{
+  width: 100%;
+  font-size: 2rem;
+}
+
+.container-0 .row-home .text-home .button-home{
+  width: 10rem;
+  height: 3rem;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.1rem solid;
+  color: black;
+  transition: 1s;
+}
+
+
+.container-0 .row-home .text-home .button-home:hover{
+  color: red;
+}
+
+.container-0 .row-home .logo-ud-rio{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container-0 .row-home .logo-ud-rio img{
+  width: 15rem;
+}
+/* END HOME SECTION */
+
+
 
 /* HERO SECTION */
 .container-1 {
@@ -53,6 +111,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-top: 5rem;
 }
 
 .container-1 .container-2 {
@@ -149,3 +208,24 @@ p {
 .row-button .button .row-selection .text-selection:hover {
   color: #05ae1e;
 }
+
+/* Media Queries */
+/* Laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 758px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
