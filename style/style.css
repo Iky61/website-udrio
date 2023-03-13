@@ -197,6 +197,7 @@ p {
   align-items: center;
   justify-content: center;
   padding-right: 7rem;
+  letter-spacing: 0.1rem;
   font-weight: 700;
   color: #047ac4;
   transition: 1s;
@@ -369,6 +370,7 @@ p {
     align-items: center;
     justify-content: center;
     padding-right: 4.5rem;
+    letter-spacing: 0.1rem;
     font-weight: 700;
     color: #047ac4;
     transition: 1s;
