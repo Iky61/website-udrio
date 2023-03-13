@@ -196,7 +196,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-right: 4.5rem;
+  padding-right: 7rem;
   font-weight: 700;
   color: #047ac4;
   transition: 1s;
@@ -272,4 +272,109 @@ p {
     width: 15rem;
   }
   /* END HOME SECTION */
+
+  /* HERO SECTION */
+  .container-1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+  }
+
+  .container-1 .container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+    padding-top: 3rem;
+  }
+
+  .container-1 .container-2 .logo img {
+    width: 4rem;
+  }
+
+  .container-1 .container-2 .row-text {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: red;
+  }
+
+  .container-1 .container-2 .row-text h3,
+  p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5rem;
+  }
+
+  .container-1 .container-2 .row-button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .container-1 .container-2 .row-button a {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .container-1 .container-2 .row-button a:hover {
+    width: 100%;
+  }
+
+  .container-1 .container-2 .row-button .button {
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(228, 202, 4);
+    border-radius: 1rem;
+    transition: 1s;
+  }
+
+  .container-1 .container-2 .row-button .button:hover {
+    background-color: white;
+  }
+
+  .row-button .button .row-selection {
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .row-button .button .row-selection .logo-selection {
+    height: 4rem;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
+  }
+
+  .row-button .button .row-selection .logo-selection img {
+    width: 2.7rem;
+    border-radius: 1rem;
+  }
+
+  .row-button .button .row-selection .text-selection {
+    height: 4rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 4.5rem;
+    font-weight: 700;
+    color: #047ac4;
+    transition: 1s;
+  }
+
+  .row-button .button .row-selection .text-selection:hover {
+    color: #05ae1e;
+  }
 }
