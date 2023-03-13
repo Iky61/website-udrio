@@ -369,7 +369,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 4.5rem;
+    /* padding-right: 4.5rem; */
     letter-spacing: 0.1rem;
     font-weight: 700;
     color: #047ac4;
