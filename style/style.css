@@ -187,7 +187,20 @@ p {
 
 .row-button .button .row-selection .logo-selection img {
   width: 2.7rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
+}
+
+.logo-selection-1 {
+  height: 4rem;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+}
+
+.row-button .button .row-selection .logo-selection-1 img {
+  width: 4.5rem;
 }
 
 .row-button .button .row-selection .text-selection {
@@ -218,7 +231,7 @@ p {
 /* Tablet */
 @media (max-width: 758px) {
   html {
-    font-size: 62.5%;
+    font-size: 75%;
   }
 }
 
@@ -236,14 +249,23 @@ p {
   }
 
   .container-0 .row-home {
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-direction: column-reverse;
   }
 
   .container-0 .row-home .text-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+  }
+
+  .container-0 .row-home .text-home h2 {
+    color: red;
   }
 
   .container-0 .row-home .text-home .button-home {
@@ -259,12 +281,16 @@ p {
     transition: 1s;
   }
 
+  .container-0 .row-home .text-home a {
+    padding-top: 2rem;
+  }
+
   .container-0 .row-home .text-home .button-home:hover {
     color: red;
   }
 
   .container-0 .row-home .logo-ud-rio {
-    height: 100vh;
+    height: 30vh;
     display: flex;
     align-items: center;
   }
@@ -309,6 +335,11 @@ p {
   p {
     font-family: "Times New Roman", Times, serif;
     font-size: 1.5rem;
+    color: black;
+  }
+
+  .container-1 .container-2 .row-text p {
+    color: red;
   }
 
   .container-1 .container-2 .row-button {
