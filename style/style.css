@@ -98,7 +98,7 @@ html {
   transition: 1s;
 }
 
-.container-0 .row-home .text-home a{
+.container-0 .row-home .text-home a {
   padding-top: 2rem;
 }
 
@@ -147,7 +147,8 @@ html {
   color: red;
 }
 
-.container-1 .container-2 .row-text h3, p {
+.container-1 .container-2 .row-text h3,
+p {
   font-family: "Times New Roman", Times, serif;
   font-size: 1.5rem;
   color: black;
@@ -254,7 +255,7 @@ html {
 }
 
 /* Mobile Phone */
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   html {
     font-size: 55%;
   }
